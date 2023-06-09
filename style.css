@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Oswald&family=Poppins:wght@400;500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+body {
+  background: #dfe9f5;
+  height: 100vh;
+}
+.container {
+  width: 380px;
+  background-color: #fff;
+  padding: 2rem 1rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 35px rgb(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 2rem;
+  color: #07001f;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+form input {
+  width: 92%;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #e4e4e4;
+}
+button {
+  width: 90%;
+  background: rgb(20, 79, 118);
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background: rgba(14, 103, 139, 0.877);
+  transition: 0.3s;
+}
+input:focus {
+  background: rgb(192, 192, 192);
+  transition: 0.3s;
+}
+.terms {
+  margin-top: 0.2rem;
+}
+.terms input {
+  height: 1rem;
+  width: 1rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.terms label {
+  font-size: 0.7rem;
+}
+.terms a {
+  color: rgb(39, 109, 194);
+  text-decoration: none;
+}
+.member {
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+  color: #636363;
+}
+.member a {
+  color: rgb(39, 109, 194);
+  text-decoration: none;
+}
+.recover {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 0.3rem 1.4rem 0 0;
+}
+.recover a {
+  text-decoration: none;
+  color: #464647;
+}
